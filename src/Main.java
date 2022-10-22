@@ -15,22 +15,22 @@ public class Main {
         System.out.println(d);
 
         //Задача 2
-        int a = 27897;
-        System.out.println(a);
-        byte b = 67;
-        System.out.println(b);
-        short s = -159;
-        System.out.println(s);
-        long r = 987 678 965 549;
-        System.out.println(r);
-        float f = 2,786;
-        System.out.println(f);
-        double d = 27.12;
-        System.out.println(d);
-        boolean isAdult =  false
+        int ad = 27897;
+        System.out.println(ad);
+        byte bd = 67;
+        System.out.println(bd);
+        short sd = -159;
+        System.out.println(sd);
+        int td = 987;
+        System.out.println(td);
+        float fd = 2786;
+        System.out.println(fd);
+        double dd = 27.12;
+        System.out.println(dd);
+        boolean isAdult =  false;
         System.out.println(isAdult);
-        char y = 569;
-        System.out.println(y);
+        char yd = 569;
+        System.out.println(yd);
 
         //Задача 3
         int teacher1 = 23;
@@ -67,9 +67,9 @@ public class Main {
         System.out.println(white);
         int brown = 4;
         System.out.println(brown);
-        int class = white + brown;
-        System.out.println(class);
-        int classAll = cansAll / class;
+        int clas = white + brown;
+        System.out.println(clas);
+        int classAll = cansAll / clas;
         System.out.println(classAll);
         int cansWhite = classAll * white;
         System.out.println(cansWhite);
@@ -109,26 +109,27 @@ public class Main {
         System.out.println(dayAll2);
 
         //Задача 8
+        int prozent = (int) 0.1;
         int Macha = 67760;
         System.out.println(Macha);
-        int income1 = Macha * 10%;
+        int income1 = Macha * prozent;
         System.out.println(income1);
         int Denis = 83690;
         System.out.println(Denis);
-        int income2 = Denis * 10%;
+        int income2 = Denis * prozent;
         System.out.println(income2);
         int Cristi = 76230;
         System.out.println(Cristi);
-        int income3 = Cristi * 10%;
+        int income3 = Cristi * prozent;
         System.out.println(income3);
         int incomeAll = Macha + Denis + Cristi;
         System.out.println(incomeAll);
-        int incomeAll% = income1 + income2 + income3;
-        System.out.println(incomeAll%);
-        int difference = incomeAll% - incomeAll;
+        int incomeAll1 = income1 + income2 + income3;
+        System.out.println(incomeAll1);
+        int difference = incomeAll1 - incomeAll;
         System.out.println(difference);
 
 
 
 
-}
+}}
